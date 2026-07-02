@@ -1,0 +1,12 @@
+.men{
+    height: 300px;
+    width: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: azure;
+
+}
+    
+    img{
+        width: 100%;
+    }

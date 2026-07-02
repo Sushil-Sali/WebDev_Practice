@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebForm</title>
+  </head>
+  <body>
+    <form action="/server">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="Name" /> <br />
+      <label>Sex:</label>
+      <label for="gen">Male</label>
+      <input type="Radio" id="gen" name="Gender" value="Male" />
+      <label for="Female">Female</label>
+      <input type="Radio" id="Female" name="Gender" value="Female" /> <br />
+      <select name="cname" id="">
+        <label for="c">Country:</label>
+        <option value="" id="c">Select on option</option>
+        <option value="India" id="c">India</option></select
+      ><br />
+      <label for="msg">Message:</label><br />
+      <textarea name="msg" id="msg"></textarea><br />
+      <input type="Checkbox" name="subscribe" id="sub" />
+      <label for="sub">subscribe</label><br />
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

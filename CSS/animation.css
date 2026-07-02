@@ -1,0 +1,37 @@
+#con{
+    background-color: yellow;
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 50%;
+    animation-name: margin1;
+    animation-duration :4s; 
+    animation-timing-function: cubic-bezier(2);
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+/* @keyframes margin1{
+    from{margin-left: 10px;
+    background-color: orange;
+    }
+    to{margin-left: 400px;
+    background-color: yellow;
+    border-radius: 0%;
+    } */
+     
+    @keyframes margin1{
+        0%{margin-left: 10px;
+        background-color: orange;
+        }
+        10%{
+            background-color: aqua;
+        }
+        40%{
+        background-color: brown;
+        }
+        100%{margin-left: 600px;
+        background-color: yellow;
+        border-radius: 0%;
+        }
+    }

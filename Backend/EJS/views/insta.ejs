@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css"/>
+</head>
+</html>
+<body>
+    
+    <h1>This account holedr @ <%= data.name %></h1>
+    <p>Followers : <%= data.followers %> &nbsp; &nbsp; Follwing: <%= data.following %></p>
+    <%for(let post of data.posts){%>
+        <img src="<%= post.image  %>" alt="Not availabel">
+      <p> Likes :<%= post.likes %></p>
+      <p> Comments :<%= post.comments %></p>
+    <% } %>
+    <h1><button>Submit</button></h1>
+    <%- include("includes/head.ejs") %>
+    <script src="javascript/app.js"></script>
+</body>
+</html>

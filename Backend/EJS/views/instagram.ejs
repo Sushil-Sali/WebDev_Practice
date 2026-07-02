@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>This account to @ <%= username %></h4>
+    <button>Follow</button>
+    <button>Following</button>
+    <h1>Followers :</h1>
+    <ul>
+<%for(let user of followers){%>
+ <li><%=user %></li>
+<%}%>
+</ul>
+</body>
+</html>

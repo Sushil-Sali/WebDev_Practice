@@ -1,0 +1,22 @@
+h2{
+    color: orange;
+    position: relative;
+    left: 300px;
+}
+button{
+    background-color: blue;
+    color: white;
+}
+p{
+    background-color: black;
+    color: white;
+}
+#relative{
+    height: 100px;
+    width: 100px;
+    border:2px solid black;
+    background-color: aqua;
+    position: relative;
+    left: 200px;
+    bottom: 100px;
+}

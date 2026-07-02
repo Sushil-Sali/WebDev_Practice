@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avengers Fan Page</title>
+    <link rel="stylesheet" href="style.css ">
+</head>
+<body>
+
+    <header>
+        <h1 class="color">Avengers Assemble</h1>
+        <p>Welcome to the Avengers fan page!</p>
+    </header>
+
+    <nav >
+        <ul>
+            <li><a href="#ironman">Iron Man</a></li>
+            <li><a href="#captain">Captain America</a></li>
+            <li><a href="#thor">Thor</a></li>
+        </ul>
+    </nav>
+
+    <section id="heroes">
+        <div class="hero-card" id="ironman">
+            <img src="iron.jpeg" alt="Iron Man">
+            <h2>Iron Man</h2>
+            <p>Tony Stark, the genius billionaire, and the man in the Iron suit.</p>
+            <button onclick="showMessage('Iron Man')">Know More</button>
+        </div>
+
+        <div class="hero-card" id="captain"> 
+            <img src="caption.png" alt="Captain America">
+            <h2>Captain America</h2>
+            <p>Steve Rogers, the super soldier with an unbreakable shield.</p>
+            <button onclick="showMessage('Captain America')">Know More</button>
+        </div>
+
+        <div class="hero-card" id="thor">
+            <img src="thor.jpeg" alt="Thor">
+            <h2>Thor</h2>
+            <p>The God of Thunder and the protector of Asgard.</p>
+            <button onclick="showMessage('Thor')">Know More</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Avengers Fan Page</p>
+    </footer>
+
+    <script src="demo.js"></script>
+</body>
+</html>
